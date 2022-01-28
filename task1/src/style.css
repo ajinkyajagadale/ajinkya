@@ -1,0 +1,140 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.website-logo {
+color: blue;
+font-size: 1.4rem;
+font-weight: bold;
+cursor: pointer;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;      
+}
+
+.position {
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  box-shadow: grey;    
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding-left: 35rem;
+  font-size: larger;
+}
+
+.blue-btn{
+padding: 10px;
+color: white;
+background-color: blue;
+border: none;
+cursor: pointer;  
+}
+
+.view-demo {
+display: flex;
+gap: 1rem;
+}
+
+.hero-heading {
+  font-size: 2.5rem;
+}
+
+.hero-button {
+  display: flex;
+  gap: 30px;
+  font-size: xx-large;
+}
+
+.hero-section {
+  display: flex;
+  margin-top: 10rem;
+}
+
+.hero-left-section {
+  width: 50%;
+  margin-top: 50px;
+  
+}
+
+.hero-right-section {
+  width: 50%;
+  margin-left: 200px;
+}
+
+.information {
+  margin-top: 2rem;
+  display: flex;
+  text-align: center;
+}
+
+.logo-text {
+  width: 33%;
+  gap: 1 rem;
+}
+
+
+.socialmedia {
+  width: 100%;
+  display: flex;
+ 
+}
+
+.google {
+width: 50%;
+padding-left: 2 rem;
+padding-right: 2 rem;
+padding-top: 5rem;
+padding-bottom: 5 rem;
+align-items: center;
+
+}
+
+.feature {
+  padding-bottom :  4rem; ;
+  padding-top: 4rem;
+  margin: auto;
+  text-align: center;
+}
+
+.feature-detail {
+  display: flex;
+  text-align: center;
+}
+
+.feature-1 {
+  width: 33%;
+}
+
+.feature-a {
+  display: flex;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.footer-padding {
+  padding-bottom: 15px;
+}
+
+
+.copyright-tag {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
