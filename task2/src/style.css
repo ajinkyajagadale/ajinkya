@@ -1,0 +1,75 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.size{
+  display:flex;
+  flex-direction: row;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.sizeno {
+  height: 18px;
+  width: 18px;
+  border: 1px solid black;
+}
+.color{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.circleOne {
+  background-color: darkgoldenrod;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
+
+
+.circleTwo {
+  background-color: darkgoldenrod;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
+
+
+.circleThree {
+  background-color: darkgoldenrod;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
+
+
+.circleFour {
+  background-color: darkgoldenrod;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
+
+.circleFive {
+  background-color: darkgoldenrod;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
+
+.footer{
+  height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
